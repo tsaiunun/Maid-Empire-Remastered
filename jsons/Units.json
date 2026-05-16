@@ -1,0 +1,283 @@
+[
+    {
+        "name": "Musketmaid",
+        "unitType": "Melee",
+        "replaces": "Musketman",
+        "uniqueTo": "Maid Empire",
+        "movement": 2,
+        "strength": 24,
+        "cost": 150,
+        "requiredTech": "Gunpowder",
+        "upgradesTo": "Rifleman",
+        "obsoleteTech": "Rifling",
+        "uniques": [],
+        "promotions": [
+            "Maid"
+        ],
+        "attackSound": "anime"
+    },
+    {
+        "name": "Riflemaid",
+        "unitType": "Melee",
+        "replaces": "Rifleman",
+        "uniqueTo": "Maid Empire",
+        "movement": 2,
+        "strength": 34,
+        "cost": 225,
+        "requiredTech": "Rifling",
+        "obsoleteTech": "Replaceable Parts",
+        "uniques": [],
+        "promotions": [
+            "Maid"
+        ],
+        "upgradesTo": "Great War Infantry",
+        "attackSound": "anime"
+    },
+    {
+        "name": "Great War Maid Infantry",
+        "unitType": "Melee",
+        "replaces": "Great War Infantry",
+        "uniqueTo": "Maid Empire",
+        "movement": 2,
+        "strength": 50,
+        "cost": 320,
+        "requiredTech": "Replaceable Parts",
+        "upgradesTo": "Infantry",
+        "obsoleteTech": "Plastics",
+        "uniques": [],
+        "promotions": [
+            "Maid"
+        ],
+        "attackSound": "anime"
+    },
+    {
+        "name": "Maid Infantry",
+        "unitType": "Melee",
+        "replaces": "Infantry",
+        "uniqueTo": "Maid Empire",
+        "movement": 2,
+        "strength": 70,
+        "cost": 375,
+        "requiredTech": "Plastics",
+        "upgradesTo": "Mechanized Infantry",
+        "obsoleteTech": "Mobile Tactics",
+        "uniques": [],
+        "promotions": [
+            "Maid"
+        ],
+        "attackSound": "anime"
+    },
+    {
+        "name": "Maid Legion",
+        "unitType": "Melee",
+        "replaces": "Mechanized Infantry",
+        "uniqueTo": "Maid Empire",
+        "movement": 3,
+        "strength": 90,
+        "cost": 375,
+        "requiredTech": "Mobile Tactics",
+        "uniques": [],
+        "promotions": [
+            "Maid",
+            "March"
+        ],
+        "attackSound": "anime"
+    },
+    {
+        "name": "Maid Artillery",
+        "unitType": "Siege",
+        "replaces": "Artillery",
+        "uniqueTo": "Maid Empire",
+        "movement": 2,
+        "strength": 28,
+        "rangedStrength": 32,
+        "range": 3,
+        "cost": 320,
+        "requiredTech": "Dynamite",
+        "upgradesTo": "Rocket Artillery",
+        "uniques": [
+            "[+200]% Strength <vs cities>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "[-1] Sight",
+            "Ranged attacks may be performed over obstacles"
+        ],
+        "promotions": [
+            "Maid",
+            "Medic"
+        ]
+    },
+    {
+        "name": "Spider Tank",
+        "unitType": "Armored",
+        "replaces": "Tank",
+        "uniqueTo": "Maid Empire",
+        "movement": 5,
+        "strength": 70,
+        "cost": 375,
+        "requiredTech": "Combined Arms",
+        "requiredResource": "Oil",
+        "upgradesTo": "Modern Armor",
+        "uniques": [
+            "Ignores terrain cost",
+            "[60]% chance to intercept air attacks"
+        ],
+        "promotions": [
+            "Maid",
+            "Cover I"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "MF 8",
+        "unitType": "Fighter",
+        "replaces": "Fighter",
+        "uniqueTo": "Maid Empire",
+        "movement": 1,
+        "strength": 45,
+        "rangedStrength": 45,
+        "range": 8,
+        "interceptRange": 8,
+        "cost": 375,
+        "requiredTech": "Radar",
+        "requiredResource": "Oil",
+        "upgradesTo": "MF 14",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+150]% Strength <vs [Bomber] units>",
+            "[+150]% Strength <vs cities>",
+            "[+4] Sight",
+            "Can see over obstacles",
+            "[+150]% Strength <vs [Helicopter] units>"
+        ],
+        "promotions": [
+            "Bombardment I"
+        ],
+        "attackSound": "shot"
+    },
+    {
+        "name": "MB 11",
+        "unitType": "Bomber",
+        "replaces": "Bomber",
+        "uniqueTo": "Maid Empire",
+        "movement": 1,
+        "strength": 70,
+        "rangedStrength": 70,
+        "range": 10,
+        "cost": 375,
+        "requiredTech": "Radar",
+        "requiredResource": "Oil",
+        "promotions": [
+            "Bombardment I"
+        ],
+        "upgradesTo": "Stealth Bomber",
+        "attackSound": "shot"
+    },
+    {
+        "name": "MF 14",
+        "unitType": "Fighter",
+        "replaces": "Jet Fighter",
+        "uniqueTo": "Maid Empire",
+        "movement": 1,
+        "strength": 75,
+        "rangedStrength": 75,
+        "range": 10,
+        "interceptRange": 10,
+        "cost": 425,
+        "requiredTech": "Lasers",
+        "requiredResource": "Aluminum",
+        "uniques": [
+            "[100]% chance to intercept air attacks",
+            "[+150]% Strength <vs [Bomber] units>",
+            "[+150]% Strength <vs cities>",
+            "[+4] Sight",
+            "Can see over obstacles",
+            "[+150]% Strength <vs [Helicopter] units>"
+        ],
+        "promotions": [
+            "Bombardment I"
+        ],
+        "attackSound": "shot"
+    },
+    {
+        "name": "Z-Destroyer",
+        "unitType": "WaterMelee",
+        "replaces": "Destroyer",
+        "uniqueTo": "Maid Empire",
+        "movement": 7,
+        "strength": 55,
+        "interceptRange": 2,
+        "cost": 375,
+        "requiredTech": "Combustion",
+        "uniques": [
+            "Can see invisible [Submarine] units",
+            "[40]% chance to intercept air attacks",
+            "Withdraws before melee combat <with [80]% chance>",
+            "[+100]% Strength <vs [Submarine] units>",
+            "[+100]% Strength <vs cities>",
+            "Can move after attacking"
+        ]
+    },
+    {
+        "name": "Maid Cruiser",
+        "unitType": "WaterRanged",
+        "uniqueTo": "Maid Empire",
+        "movement": 6,
+        "strength": 55,
+        "rangedStrength": 55,
+        "interceptRange": 3,
+        "range": 3,
+        "cost": 375,
+        "requiredTech": "Electronics",
+        "upgradesTo": "Missile Cruiser",
+        "uniques": [
+            "Can see invisible [Submarine] units",
+            "[60]% chance to intercept air attacks",
+            "[+100]% Strength <vs [Submarine] units>",
+            "[+100]% Strength <vs cities>",
+            "Ranged attacks may be performed over obstacles"
+        ],
+        "promotions": [
+            "Targeting I"
+        ],
+        "replaces": "Battleship"
+    },
+    {
+        "name": "Head Maid",
+        "unitType": "Civilian",
+        "uniqueTo": "Maid Empire",
+        "replaces": "Great General",
+        "uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [3] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Can be earned through combat",
+            "Is part of Great Person group [General]",
+            "Great Person - [War]",
+            "Unbuildable",
+            "Uncapturable",
+            "[+1] Sight",
+            "Invisible to others"
+        ],
+        "movement": 3
+    },
+    {
+        "name": "2B",
+        "unitType": "Melee",
+        "replaces": "Marine",
+        "uniqueTo": "Maid Empire",
+        "movement": 3,
+        "strength": 70,
+        "cost": 400,
+        "requiredTech": "Pharmaceuticals",
+        "promotions": [
+            "Maid",
+            "Amphibious"
+        ],
+        "uniques": [
+            "[+100]% Strength <when defending> <when [Embarked]>",
+            "[+1] Sight"
+        ],
+        "attackSound": "nonmetalhit"
+    }
+]

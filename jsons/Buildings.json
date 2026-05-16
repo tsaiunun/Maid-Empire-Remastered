@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Maid Mansion",
+        "replaces": "Courthouse",
+        "uniqueTo": "Maid Empire",
+        "maintenance": 2,
+        "happiness": 2,
+        "cityStrength": 5,
+        "cost": 90,
+        "uniques": [
+            "Removes extra unhappiness from annexed cities",
+            "[+1 Culture] <after discovering [Archaeology]>"
+        ],
+        "requiredTech": "Mathematics"
+    }
+]
